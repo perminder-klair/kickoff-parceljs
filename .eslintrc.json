@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "airbnb-base",
+    "react",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": [
+    "import",
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+      "module": true
+  },
+  "rules": {
+    "prettier/prettier": ["error", {
+        "singleQuote": true,
+        "trailingComma": "all",
+        "bracketSpacing": true,
+        "jsxBracketSameLine": false,
+        "parser": "flow"
+    }]
+  }
+}

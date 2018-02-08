@@ -1,0 +1,46 @@
+{
+  "name": "kickoff-parceljs",
+  "version": "1.0.0",
+  "description": "A starting point using ReactJs, bundled with awesome ParcelJs.",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "lint": "eslint --fix --ext .jsx,.js src/index.js src/**/"
+  },
+  "author": "Parminder Klair",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perminder-klair/kickoff-parceljs.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "parceljs",
+    "javascript",
+    "graphql",
+    "graphql",
+    "redux",
+    "reactjs",
+    "boilerplate"
+  ],
+  "dependencies": {
+    "autoprefixer": "^7.2.5",
+    "babel-preset-react-app": "^3.1.1",
+    "eslint-plugin-react": "^7.6.1",
+    "parcel-bundler": "^1.5.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.10.2",
+    "prettier-eslint-cli": "^4.7.0"
+  }
+}
