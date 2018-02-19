@@ -2,8 +2,6 @@
 
 A starting point using ReactJs, bundled with awesome ParcelJs.
 
-Using Stackable.space and Graph.cool as API to provide data.
-
 ## Stack
 
 - [Parcel.js](https://parceljs.org/)
